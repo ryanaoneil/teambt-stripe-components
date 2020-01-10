@@ -41,7 +41,9 @@
     "@storybook/react": "^5.2.8"
   },
   "bit": {
-    "env": {},
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.11"
+    },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
   }
