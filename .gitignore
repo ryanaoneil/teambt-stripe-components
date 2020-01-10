@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+dist/src/components/Subscription/index.js
+dist/src/components/Subscription/index.js.map
+dist/src/components/Subscription/Subscription.js
+dist/src/components/Subscription/Subscription.js.map
+dist/src/components/Subscription/Subscription.spec.js
+dist/src/components/Subscription/Subscription.spec.js.map
+dist/src/components/SubscriptionSummary/index.js
+dist/src/components/SubscriptionSummary/index.js.map
+dist/src/components/SubscriptionSummary/SubscriptionSummary.js
+dist/src/components/SubscriptionSummary/SubscriptionSummary.js.map
+dist/src/components/SubscriptionSummary/SubscriptionSummary.spec.js
+dist/src/components/SubscriptionSummary/SubscriptionSummary.spec.js.map
