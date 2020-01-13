@@ -33,3 +33,9 @@ dist/src/components/SubscriptionSummary/SubscriptionSummary.js
 dist/src/components/SubscriptionSummary/SubscriptionSummary.js.map
 dist/src/components/SubscriptionSummary/SubscriptionSummary.spec.js
 dist/src/components/SubscriptionSummary/SubscriptionSummary.spec.js.map
+dist/src/components/SubscriptionMedia/index.js
+dist/src/components/SubscriptionMedia/index.js.map
+dist/src/components/SubscriptionMedia/SubscriptionMedia.js
+dist/src/components/SubscriptionMedia/SubscriptionMedia.js.map
+dist/src/components/SubscriptionMedia/SubscriptionMedia.spec.js
+dist/src/components/SubscriptionMedia/SubscriptionMedia.spec.js.map

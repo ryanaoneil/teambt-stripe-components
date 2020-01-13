@@ -18,10 +18,11 @@ const useStyles = MUI.makeStyles(theme => {
     },
     monthlyPrice: {
       fontWeight: "bold",
-      color: "grey"
+      color: theme.palette.primary.dark
     },
     yearlyPrice: {
-      fontStyle: "italic"
+      fontStyle: "italic",
+      color: theme.palette.primary.main
     }
   };
 });

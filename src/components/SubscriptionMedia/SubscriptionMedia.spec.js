@@ -4,6 +4,6 @@ import SubscriptionMedia from "./SubscriptionMedia";
 
 describe("Describe", () => {
   test("Test", () => {
-    RTL.render(<SubscriptionMedia />);
+    RTL.render(<SubscriptionMedia src="" />);
   });
 });

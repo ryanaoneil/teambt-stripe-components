@@ -1,5 +1,5 @@
 import React from "react";
-
+import SubscriptionMedia from "../SubscriptionMedia";
 import * as MUI from "@material-ui/core";
 import PropTypes from "prop-types";
 
@@ -41,7 +41,7 @@ const Subscription = props => {
       className={classes.subscriptions}
     >
       <div className={classes.text}>{subscriptionSummary()}</div>
-      <MUI.CardMedia className={classes.media} image={image} />
+      <SubscriptionMedia src={image} />
     </MUI.Card>
   );
 };
