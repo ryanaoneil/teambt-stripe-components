@@ -6,7 +6,12 @@ const useStyles = MUI.makeStyles(theme => {
   return {
     subscriptionSummary: {
       padding: "1em",
-      fontSize: "0.6em"
+      fontSize: "0.6em",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      height: "100%"
     },
     title: {
       fontWeight: "bold"
@@ -26,9 +31,12 @@ const SubscriptionSummary = props => {
   const { title, monthlyPrice, yearlyPrice } = props;
   return (
     <div className={classes.subscriptionSummary}>
-      <MUI.Typography align="center" className={classes.title} variant="h6">
-        {title}
-      </MUI.Typography>
+      <div>
+        <MUI.Typography align="center" className={classes.title} variant="h6">
+          {title}
+        </MUI.Typography>
+      </div>
+
       <div>
         <MUI.Typography
           align="center"

@@ -12,18 +12,16 @@ export const subscriptions = () => (
     <Subscription
       image={PLACEHOLDER_IMAGE}
       subscriptionSummary={() => (
-        <div>
-          <SubscriptionSummary
-            title="Bud"
-            monthlyPrice={120}
-            yearlyPrice={1200}
-            summaryList={[
-              "Maximum of 2 years",
-              "Online payment using Stripe",
-              "E-Contract"
-            ]}
-          />
-        </div>
+        <SubscriptionSummary
+          title="Bud"
+          monthlyPrice={120}
+          yearlyPrice={1200}
+          summaryList={[
+            "Maximum of 2 years",
+            "Online payment using Stripe",
+            "E-Contract"
+          ]}
+        />
       )}
     />
   </SubscriptionContainer>
@@ -35,54 +33,48 @@ export const subscriptionsMultiple = () => (
       toggled={false}
       image={PLACEHOLDER_IMAGE}
       subscriptionSummary={() => (
-        <div>
-          <SubscriptionSummary
-            title="Bud"
-            monthlyPrice={120}
-            yearlyPrice={1200}
-            summaryList={[
-              "Maximum of 2 years",
-              "Online payment using Stripe",
-              "E-Contract"
-            ]}
-          />
-        </div>
+        <SubscriptionSummary
+          title="Bud"
+          monthlyPrice={120}
+          yearlyPrice={1200}
+          summaryList={[
+            "Maximum of 2 years",
+            "Online payment using Stripe",
+            "E-Contract"
+          ]}
+        />
       )}
     />
     <Subscription
       toggled={true}
       image={PLACEHOLDER_IMAGE}
       subscriptionSummary={() => (
-        <div>
-          <SubscriptionSummary
-            title="Bud"
-            monthlyPrice={120}
-            yearlyPrice={1200}
-            summaryList={[
-              "Maximum of 2 years",
-              "Online payment using Stripe",
-              "E-Contract"
-            ]}
-          />
-        </div>
+        <SubscriptionSummary
+          title="Bud"
+          monthlyPrice={120}
+          yearlyPrice={1200}
+          summaryList={[
+            "Maximum of 2 years",
+            "Online payment using Stripe",
+            "E-Contract"
+          ]}
+        />
       )}
     />
     <Subscription
       toggled={false}
       image={PLACEHOLDER_IMAGE}
       subscriptionSummary={() => (
-        <div>
-          <SubscriptionSummary
-            title="Bud"
-            monthlyPrice={120}
-            yearlyPrice={1200}
-            summaryList={[
-              "Maximum of 2 years",
-              "Online payment using Stripe",
-              "E-Contract"
-            ]}
-          />
-        </div>
+        <SubscriptionSummary
+          title="Bud"
+          monthlyPrice={120}
+          yearlyPrice={1200}
+          summaryList={[
+            "Maximum of 2 years",
+            "Online payment using Stripe",
+            "E-Contract"
+          ]}
+        />
       )}
     />
   </SubscriptionContainer>

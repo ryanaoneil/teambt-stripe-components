@@ -6,7 +6,6 @@ import PropTypes from "prop-types";
 const useStyles = MUI.makeStyles(theme => {
   return {
     subscriptions: {
-      height: 200,
       display: "flex",
       marginBottom: "1em",
       border: props => {
@@ -18,13 +17,13 @@ const useStyles = MUI.makeStyles(theme => {
       }
     },
     text: {
-      flex: 1
+      flex: 1,
+      height: "100%"
     },
     media: {
       flex: 1,
       height: "100%",
-      width: "100%",
-      maxWidth: 200
+      width: "100%"
     }
   };
 });
