@@ -6,7 +6,7 @@ const useStyles = MUI.makeStyles(theme => {
     subscriptionContainer: {
       width: "100%",
       height: 500,
-      maxWidth: 300
+      maxWidth: 450
     }
   };
 });

@@ -17,8 +17,7 @@ const useStyles = MUI.makeStyles(theme => {
       }
     },
     text: {
-      flex: 1,
-      height: "100%"
+      flex: 1
     },
     media: {
       flex: 1,

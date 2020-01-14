@@ -5,7 +5,6 @@ import * as MUI from "@material-ui/core";
 const useStyles = MUI.makeStyles(theme => {
   return {
     subscriptionSummary: {
-      padding: "1em",
       fontSize: "0.6em",
       display: "flex",
       flexDirection: "column",
@@ -17,12 +16,10 @@ const useStyles = MUI.makeStyles(theme => {
       fontWeight: "bold"
     },
     monthlyPrice: {
-      fontWeight: "bold",
-      color: theme.palette.primary.dark
+      fontWeight: "bold"
     },
     yearlyPrice: {
-      fontStyle: "italic",
-      color: theme.palette.primary.main
+      fontStyle: "italic"
     }
   };
 });
@@ -43,6 +40,7 @@ const SubscriptionSummary = props => {
           align="center"
           className={classes.monthlyPrice}
           variant="body1"
+          color="primary"
         >
           ${monthlyPrice}/ monthly
         </MUI.Typography>
@@ -50,6 +48,7 @@ const SubscriptionSummary = props => {
           align="center"
           className={classes.yearlyPrice}
           variant="subtitle1"
+          color="primary"
         >
           ${yearlyPrice}/ yearly
         </MUI.Typography>

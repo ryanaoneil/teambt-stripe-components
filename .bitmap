@@ -24,7 +24,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "lgdelacruz92.team-bt/subscription-summary@0.0.4": {
+    "lgdelacruz92.team-bt/subscription-summary@0.0.5": {
         "files": [
             {
                 "relativePath": "src/components/SubscriptionSummary/SubscriptionSummary.js",
