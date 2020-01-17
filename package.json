@@ -50,6 +50,18 @@
       "compiler": "bit.envs/compilers/react@1.0.11"
     },
     "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "overrides": {
+      "lgdelacruz92.team-bt/subscription": {
+        "env": {
+          "compiler": "bit.envs/compilers/react@1.0.11"
+        }
+      },
+      "lgdelacruz92.team-bt/subscription-summary": {
+        "env": {
+          "compiler": "bit.envs/compilers/react@1.0.11"
+        }
+      }
+    }
   }
 }

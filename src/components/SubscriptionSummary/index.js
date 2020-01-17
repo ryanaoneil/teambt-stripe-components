@@ -1,2 +1,3 @@
-import SubscriptionSummary from './SubscriptionSummary';
+import SubscriptionSummary from './SubscriptionSummary';
+
 export default SubscriptionSummary;
