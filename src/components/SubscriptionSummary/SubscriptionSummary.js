@@ -62,6 +62,11 @@ const SubscriptionSummary = props => {
           </MUI.Typography>
         </div>
         <div>
+          <MUI.Typography align="center" className={classes.description} variant="body1">
+            {`You will get 7 days free trial`}
+          </MUI.Typography>
+        </div>
+        <div>
           <MUI.Typography
             align="center"
             className={classes.monthlyPrice}
@@ -70,11 +75,6 @@ const SubscriptionSummary = props => {
           >
             We will call you to customize the best plan for your needs
             </MUI.Typography>
-        </div>
-        <div>
-          <MUI.Typography align="center" className={classes.description} variant="body1">
-            {`You will get 7 days free trial`}
-          </MUI.Typography>
         </div>
       </div>
     );
