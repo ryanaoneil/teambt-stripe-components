@@ -11,7 +11,8 @@ const useStyles = MUI.makeStyles(theme => {
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "center",
-      height: "100%"
+      height: "100%",
+      padding: "1em"
     },
     title: {
       fontWeight: "bold"

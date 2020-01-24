@@ -7,6 +7,7 @@ const useStyles = MUI.makeStyles(theme => {
     subscriptions: {
       display: "flex",
       marginBottom: "1em",
+      height: "100%",
       border: props => {
         if (props.toggled) {
           return "2px solid lightcoral";

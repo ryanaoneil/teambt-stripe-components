@@ -2,6 +2,8 @@ import React from "react";
 import SubscriptionContainer from "../../metacomponents/SubscriptionContainer";
 import Subscription from "../../components/Subscription";
 import SubscriptionSummary from "../../components/SubscriptionSummary";
+import * as MUI from "@material-ui/core";
+
 export default { title: "Subscription" };
 
 const PLACEHOLDER_IMAGE =
@@ -95,3 +97,86 @@ export const subscriptionsMultiple = () => (
     />
   </SubscriptionContainer>
 );
+
+export const subscriptionsMultipleTiles = () => (
+  <SubscriptionContainer>
+    <MUI.Grid container spacing={2}>
+      <MUI.Grid item xs={6}>
+        <Subscription
+          toggled={false}
+          image={PLACEHOLDER_IMAGE}
+          subscriptionSummary={() => (
+            <SubscriptionSummary
+              title="Bud"
+              monthlyPrice={0}
+              yearlyPrice={0}
+              summaryList={[
+                "Maximum of 2 years",
+                "Online payment using Stripe",
+                "E-Contract"
+              ]}
+            />
+          )}
+        />
+      </MUI.Grid>
+      <MUI.Grid item xs={6} >
+        <Subscription
+          toggled={true}
+          image={PLACEHOLDER_IMAGE}
+          subscriptionSummary={() => (
+            <SubscriptionSummary
+              title="Blossom"
+              monthlyPrice={98}
+              yearlyPrice={1176}
+              summaryList={[
+                "Maximum of 2 years",
+                "Online payment using Stripe",
+                "E-Contract"
+              ]}
+            />
+          )}
+        />
+      </MUI.Grid>
+    </MUI.Grid>
+
+    <MUI.Grid container spacing={2}>
+      <MUI.Grid item xs={6} >
+        <Subscription
+          toggled={false}
+          image={PLACEHOLDER_IMAGE}
+          subscriptionSummary={() => (
+            <SubscriptionSummary
+              title="Bloom"
+              monthlyPrice={150}
+              yearlyPrice={1800}
+              summaryList={[
+                "Maximum of 2 years",
+                "Online payment using Stripe",
+                "E-Contract"
+              ]}
+            />
+          )}
+        />
+      </MUI.Grid>
+      <MUI.Grid item xs={6} spacing={2}>
+        <Subscription
+          toggled={false}
+          image={PLACEHOLDER_IMAGE}
+          subscriptionSummary={() => (
+            <SubscriptionSummary
+              title="Enterprise"
+              monthlyPrice={-1}
+              yearlyPrice={1800}
+              summaryList={[
+                "Maximum of 2 years",
+                "Online payment using Stripe",
+                "E-Contract"
+              ]}
+            />
+          )}
+        />
+      </MUI.Grid>
+    </MUI.Grid>
+  </SubscriptionContainer>
+);
+
