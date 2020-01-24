@@ -24,7 +24,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "lgdelacruz92.team-bt/subscription-summary@0.0.9": {
+    "lgdelacruz92.team-bt/subscription-summary@0.0.10": {
         "files": [
             {
                 "name": "SubscriptionSummary.js",
@@ -47,7 +47,7 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "lgdelacruz92.team-bt/subscription@0.0.7": {
+    "lgdelacruz92.team-bt/subscription@0.0.8": {
         "files": [
             {
                 "name": "Subscription.js",
