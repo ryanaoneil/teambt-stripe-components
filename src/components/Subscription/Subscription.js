@@ -1,5 +1,4 @@
 import React from "react";
-import SubscriptionMedia from "../SubscriptionMedia";
 import * as MUI from "@material-ui/core";
 import PropTypes from "prop-types";
 
@@ -8,6 +7,7 @@ const useStyles = MUI.makeStyles(theme => {
     subscriptions: {
       display: "flex",
       marginBottom: "1em",
+      height: "100%",
       border: props => {
         if (props.toggled) {
           return "2px solid lightcoral";
@@ -28,7 +28,7 @@ const useStyles = MUI.makeStyles(theme => {
 });
 
 const Subscription = props => {
-  const { image, subscriptionSummary, toggled } = props;
+  const { subscriptionSummary, toggled } = props;
   const classes = useStyles({ toggled });
   const [elevation, setElevation] = React.useState(toggled);
 
@@ -40,7 +40,6 @@ const Subscription = props => {
       className={classes.subscriptions}
     >
       <div className={classes.text}>{subscriptionSummary()}</div>
-      <SubscriptionMedia src={image} />
     </MUI.Card>
   );
 };
@@ -48,7 +47,7 @@ const Subscription = props => {
 export default Subscription;
 
 Subscription.propTypes = {
-  image: PropTypes.string.isRequired,
+  image: PropTypes.string,
   subscriptionSummary: PropTypes.func.isRequired,
   toggled: PropTypes.bool.isRequired
 };

@@ -24,22 +24,22 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "lgdelacruz92.team-bt/subscription-summary@0.0.5": {
+    "lgdelacruz92.team-bt/subscription-summary@0.0.10": {
         "files": [
             {
+                "name": "SubscriptionSummary.js",
                 "relativePath": "src/components/SubscriptionSummary/SubscriptionSummary.js",
-                "test": false,
-                "name": "SubscriptionSummary.js"
+                "test": false
             },
             {
+                "name": "SubscriptionSummary.spec.js",
                 "relativePath": "src/components/SubscriptionSummary/SubscriptionSummary.spec.js",
-                "test": false,
-                "name": "SubscriptionSummary.spec.js"
+                "test": false
             },
             {
+                "name": "index.js",
                 "relativePath": "src/components/SubscriptionSummary/index.js",
-                "test": false,
-                "name": "index.js"
+                "test": false
             }
         ],
         "mainFile": "src/components/SubscriptionSummary/index.js",
@@ -47,22 +47,22 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "lgdelacruz92.team-bt/subscription@0.0.4": {
+    "lgdelacruz92.team-bt/subscription@0.0.8": {
         "files": [
             {
+                "name": "Subscription.js",
                 "relativePath": "src/components/Subscription/Subscription.js",
-                "test": false,
-                "name": "Subscription.js"
+                "test": false
             },
             {
+                "name": "Subscription.spec.js",
                 "relativePath": "src/components/Subscription/Subscription.spec.js",
-                "test": false,
-                "name": "Subscription.spec.js"
+                "test": false
             },
             {
+                "name": "index.js",
                 "relativePath": "src/components/Subscription/index.js",
-                "test": false,
-                "name": "index.js"
+                "test": false
             }
         ],
         "mainFile": "src/components/Subscription/index.js",
@@ -70,5 +70,5 @@
         "origin": "AUTHORED",
         "exported": true
     },
-    "version": "14.7.1"
+    "version": "14.7.2"
 }

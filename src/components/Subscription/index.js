@@ -1,2 +1,3 @@
-import Subscription from './Subscription';
+import Subscription from './Subscription';
+
 export default Subscription;
