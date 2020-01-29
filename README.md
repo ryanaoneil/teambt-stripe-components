@@ -6,3 +6,10 @@ There are 3 components:
 2. Summary of subscription (a text paragraph describing the detail of plan
 3. Subscription which is container for 2 components above.
 
+### How to use
+The library is demostrated using [Storybook](https://storybook.js.org/)
+
+`$ yarn storybook` or `npm storybook`
+
+
+
